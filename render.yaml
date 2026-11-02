@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ml-agentes
+    runtime: docker
+    plan: free
+    envVars:
+      - key: ML_APP_ID
+        sync: false
+      - key: ML_SECRET
+        sync: false
+      - key: ML_REDIRECT
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false

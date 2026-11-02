@@ -1,0 +1,1 @@
+{"name":"ml-agentes","version":"1.0.0","type":"module","scripts":{"start":"node --env-file=.env server.js","setup":"node setup.js"},"engines":{"node":">=20"},"dependencies":{"@anthropic-ai/sdk":"^0.40.0","cookie-parser":"^1.4.6","cors":"^2.8.5","express":"^4.19.2"}}
